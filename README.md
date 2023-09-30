@@ -22,3 +22,4 @@ Este repositorio nos sirve para aprender el flujo de trabajo de git y github.
     * git chekout -b ejemplo
     * git switch  main
     * git merge ejemplo
+    * praticando
