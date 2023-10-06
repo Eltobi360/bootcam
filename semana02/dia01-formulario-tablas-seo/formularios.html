@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+
+</head>
+<body>
+    <main class="container">
+        <h1>Formularios + Inputs + Tablas</h1>
+    
+        <form action="">
+            <h2>Inputs</h2>
+            <label for="text1">Input tipo texto</label>
+            <input type="text" placeholder="Ingrese algun texto" id="text1" name="texto">
+
+            <label for="">
+                Inpu(Solo lectura)
+                <input type="text" placeholder="Input de solo lectura" readonly value="Solo lectura se puede copiar pero no se puede escribir">
+            </label>
+
+            <label for="">
+                Input(Desactivado)
+                <input type="text" placeholder="Input Desactivado" disabled>
+            </label>
+
+            <label for="">
+                Input tipo number
+                <input type="number" placeholder="Edad Ej.18" name="edad">
+            </label>
+
+            <label for="">
+                Input tipo email
+                <input type="email" placeholder="Correo Ej. mneyraarzapalo@gmail.com" name="email">
+            </label>
+
+            <label for="">
+                Input tipo range (edad)
+                <input type="range" min="1" max="100">
+            </label>
+
+            <label for="">
+                input tipo telefono
+                <input type="tel" placeholder="(51) 999999999">
+            </label>
+            <label for="">
+                input tipo url
+                <input type="url" placeholder="Sitio web">
+            </label>
+            <label for="">
+                Input tipo password
+                <input type="password" placeholder="superPass">
+            </label>
+
+            <label for="">
+                input tipo color
+                <input type="color">
+            </label>
+
+            <label for="">
+                input tipo search
+                <input type="search" placeholder="busacr">
+            </label>
+
+            <label for="">
+                input tipo file(seleccionar .jpg) uno a la vez
+                <input type="file" accept="jpg, jpeg">
+            </label>
+
+            <label for="">
+                input tipo file (seleccionar archivos multiples)
+                <input type="file" accept=". jpg, . jpeg" multiple>
+            </label>
+             
+            <input type="hidden" value="datos-ocultos">
+
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </main>
+</body>
+</html>
