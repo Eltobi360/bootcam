@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reto: formulario de registro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 </head>
 <body>
     <!--Crear un formulario para crear una cuenta de usuario con los campos nombres, apellidos , email , telefono , pasword, confirmar pasword(caja de texto), si 
     gustan pueden agragar mas campos. y un botón llamado de registrase opcional mete se pueden usar el framework PCio que vimos en clase -->
+<main class="container" style="width: 500px;">
+    <h1 style="text-align: center;">Formulario de registro 
+        <img src="fomrl.png" alt="" width="150px"> </h1> 
+   
+        <form action="">
+            <label for="text1">Ingrese su nombres:
+                <input type="text" placeholder="Ingrese su nombre" id="text1" name="texto" required >
+            </label>
+            
+            <label for="text2">Ingrese sus apellidos:
+                <input type="text" placeholder="Ingrese sus apellidos" id="text2" required>
+            </label>
+            
+            <label for="correo">ingrese su correo:
+                <input type="email" placeholder="Ej. Esteesunejemplo@gmail.com" id="correo" required>
+            </label>
+           
+            <label for="telf">
+                telefono
+                <input type="tel" name="telefono" required placeholder="+51 99999999" id="telf" pattern="\+[0-9]{2} [0-9]{8,9}">
+            </label>
+
+            <label for="">Ingrese su genero: &nbsp;
+                <input type="radio" name="genero" value="m">Masculino
+                &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="genero" value="f">Femenino 
+            </label><br>
+           
+            
+            <label for="fecha">
+                Ingrese su fecha de nacimiento
+                <input type="date" name="dia" id="fecha" required>
+            </label>
+
+            <label for="descripcion">
+                Escribe algo sobre ti (Opcional)
+                <textarea placeholder="Escribe una descripcion sobre ti...." name="Biografia" rows="2" cols="4" id="descripcion"></textarea>
+                
+            </label>
+            
+            <label for="contraseña">Cree una contraseña:
+                <input type="password" placeholder="contraseña" id="contraseña" required>
+            </label>
+            
+            <label for="confirmar">Confirme  contraseña:
+                <input type="password" placeholder="confirmar contraseña" id="confirmar" required>
+            </label>
+            
+            
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Limpiar">
+           
+
+
+        </form>
+</main>
 </body>
 </html>
