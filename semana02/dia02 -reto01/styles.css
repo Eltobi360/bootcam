@@ -102,5 +102,8 @@ main {
     margin-top: 20px;
 }
 
+.content button:hover{
+    background-color: hsl(157, 22%, 12%);
+}
 
 
