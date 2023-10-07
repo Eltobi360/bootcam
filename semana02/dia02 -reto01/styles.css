@@ -1,6 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
 
 /*font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif;*/
+
+body{
+    background-color: hsl(30, 30%, 92%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+    height: 100hv; /*Viewport height - alto de lo visible pantalla*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    background-color: red;
+    width: 560px;
+    height: 400px;
+  }
 
