@@ -1,0 +1,64 @@
+.hero{
+    padding: 10rem;
+}
+.hero-slide{
+    background-image: url(https://codescandy.com/coach/bootstrap-5/assets/images/hero-slide.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.cuerpo p{
+        text-align: center;
+        
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
+}
+
+.contenido{
+    padding: 5rem;
+}
+
+.contenido_img{
+    padding: 3rem;
+}
+
+.contenido_imgp{
+    padding-top: 2rem;
+}
+.subt{
+    
+        width: 100%; 
+        max-width: 600px; 
+        margin: 0 auto; 
+        text-align: center; 
+     
+}
+.overlay-form {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo del formulario con transparencia para que las imágenes se muestren debajo */
+    top: 0; /* Ajusta la posición vertical del formulario */
+    left: 0; /* Ajusta la posición horizontal del formulario */
+    right: 0;
+    z-index: 1; /* Asegura que el formulario esté en la parte superior de las imágenes */
+    padding: 20px; /* Añade espaciado interno al formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra al formulario */
+}
+
+.formulario{
+    padding-top: 10px;
+}
+
+.galerias{
+    padding-top: 40px;
+}
+
+div{
+    display: block;
+}
+

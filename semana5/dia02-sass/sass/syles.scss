@@ -1,0 +1,18 @@
+//css:--primary-color:#FFA559;
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+:root{
+    --mi-variable:yellow;
+}
+body{
+    background-color: $primari-color;
+    background-color: var(--mi-variable);
+    /*css: background-color: var(--primary-color);*/
+    
+    text-align: center;
+}
+
+
+
