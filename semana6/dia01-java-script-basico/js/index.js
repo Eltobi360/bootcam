@@ -55,11 +55,51 @@ let nombre;
 console.log(nombre);
 console.log(typeof nombre);
 
-//null
+//null -> es un object
 
 let apellido=null;
 
 console.log(apellido)
 console.log(typeof apellido);
 
-//
+// object
+// funtion
+// BigInt
+// Symbol
+
+
+//Variables y constantes 
+
+//EcamaSCRIPT 6 = ES6
+
+//EcmaSCRIPT 5 = ES5
+
+//var -> es5 (Forma de declarar una variable)
+
+var nombredemiVariable='un valor';
+
+//cosnt, let -> (el uso de const y let es lo recomendado)
+
+//const -> ES6 (El uso de let es lo recomendado)
+//*no se puede reasignar su valor
+
+const edad=55;
+const _edad=25;
+const edadDeMihijo=15;
+
+//edad=33;//index.js:87 Uncaught TypeError: Assignment to constant variable.
+
+
+
+console.log(edad)
+
+//Let -> ES6 (El uso de let es lo recomendado)
+
+//*si podemos reasignar su valor
+
+let edad2=55;
+edad2=35;
+edad2=22;
+
+console.log(edad2)
+
