@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detectando las teclas precionadas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto w-80  bg-yellow-300 p-5 flex flex-col items-center gap-5">
+        <div class="keycode bg-red-400 w-16 h-16 rounded-full rounded-full flex justify-center items-center text-4xl text-white"></div>
+    </div>
+    <div class="container mx-auto w-80 h-40 bg-yellow-300 p-5  flex flex-col items-center gap-5">
+        <div class="character bg-red-300 w-16 h-16  flex  flex justify-center items-center text-4xl text-white"></div>
+    </div>
+
+    <script>
+        const divkeycode =document.querySelector('.keycode')
+        const divcharacter=document.querySelector('.character')
+
+
+        document.addEventListener('keydown',function(event){
+            console.log('>',event)
+            console.log('>',event.key) //letra precionada
+            console.log('>',event.keyCode) //codigo ASCII   
+
+
+            divkeycode.textContent=event.keyCode
+            divcharacter.textContent=event.key
+        })
+    </script>
+
+</body>
+</html>
